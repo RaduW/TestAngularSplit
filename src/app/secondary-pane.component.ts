@@ -3,7 +3,7 @@ import {Component, OnInit} from '@angular/core';
 @Component({
     selector: 'app-secondary-pane',
     template: `
-        <div style="background-color: aquamarine; height:100%; ">
+        <div style="background-color: aquamarine; height:100%;">
             <split direction="vertical">
                 <split-area>
                     <div style="height:100%; background-color: bisque; display:flex; flex-direction: column;">

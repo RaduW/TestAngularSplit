@@ -4,14 +4,14 @@ import {Component} from '@angular/core';
     selector: 'app-root',
     template: `
         <div class='the-app'>
-            <p-toolbar flex="0 0 1">
+            <p-toolbar >
                 <div class="ui-toolbar-group-left">
                     <button pButton type="button" label="New" icon="fa-plus"></button>
                     <i class="fa fa-bars"></i>
                     <button pButton type="button" label="Open" icon="fa-folder-open"></button>
                 </div>
             </p-toolbar>
-        <split direction="horizontal" style="flex: 1 1 0;">
+            <split direction="horizontal" style="flex: 1 1 0;">
                 <split-area>first</split-area>
                 <split-area style="background-color: aliceblue">
                     <app-secondary-pane></app-secondary-pane>
